@@ -12,6 +12,10 @@
 		AF7A98BC1FF945DB004B22E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7A98BA1FF945DB004B22E4 /* Main.storyboard */; };
 		AF7A98BE1FF945DB004B22E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7A98BD1FF945DB004B22E4 /* Assets.xcassets */; };
 		AF7A98C11FF945DB004B22E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7A98BF1FF945DB004B22E4 /* LaunchScreen.storyboard */; };
+		AF7A98C91FF94681004B22E4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A98C81FF94681004B22E4 /* User.swift */; };
+		AF7A98CB1FF94808004B22E4 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A98CA1FF94808004B22E4 /* Tweet.swift */; };
+		AF7A98CD1FF948E7004B22E4 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A98CC1FF948E7004B22E4 /* TimelineViewController.swift */; };
+		AF7A98CF1FF9F3B1004B22E4 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A98CE1FF9F3B1004B22E4 /* TweetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AF7A98BD1FF945DB004B22E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF7A98C01FF945DB004B22E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF7A98C21FF945DB004B22E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7A98C81FF94681004B22E4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AF7A98CA1FF94808004B22E4 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		AF7A98CC1FF948E7004B22E4 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		AF7A98CE1FF9F3B1004B22E4 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				AF7A98B61FF945DB004B22E4 /* AppDelegate.swift */,
 				AF7A98B81FF945DB004B22E4 /* ViewController.swift */,
+				AF7A98C81FF94681004B22E4 /* User.swift */,
+				AF7A98CA1FF94808004B22E4 /* Tweet.swift */,
+				AF7A98CC1FF948E7004B22E4 /* TimelineViewController.swift */,
 				AF7A98BA1FF945DB004B22E4 /* Main.storyboard */,
+				AF7A98CE1FF9F3B1004B22E4 /* TweetTableViewCell.swift */,
 				AF7A98BD1FF945DB004B22E4 /* Assets.xcassets */,
 				AF7A98BF1FF945DB004B22E4 /* LaunchScreen.storyboard */,
 				AF7A98C21FF945DB004B22E4 /* Info.plist */,
@@ -138,6 +150,10 @@
 			files = (
 				AF7A98B91FF945DB004B22E4 /* ViewController.swift in Sources */,
 				AF7A98B71FF945DB004B22E4 /* AppDelegate.swift in Sources */,
+				AF7A98C91FF94681004B22E4 /* User.swift in Sources */,
+				AF7A98CB1FF94808004B22E4 /* Tweet.swift in Sources */,
+				AF7A98CD1FF948E7004B22E4 /* TimelineViewController.swift in Sources */,
+				AF7A98CF1FF9F3B1004B22E4 /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
